@@ -6,32 +6,30 @@
 
 :root {
   /* ## Colors */
+  /* ### Primary */
 
-/* ### Primary */
+  --Light-red: hsl(356, 100%, 66%);
+  --Very-light-red: hsl(355, 100%, 74%);
+  --Very-dark-blue: hsl(208, 49%, 24%);
 
---Light-red: hsl(356, 100%, 66%)
---Very-light-red: hsl(355, 100%, 74%)
-- Very-dark-blue: hsl(208, 49%, 24%)
+  /* ### Neutral */
 
-/* ### Neutral */
+  --White: hsl(0, 0%, 100%);
+  --Grayish-blue: hsl(240, 2%, 79%);
+  --Very-dark-grayish-blue: hsl(207, 13%, 34%);
+  --Very-dark-black-blue: hsl(240, 10%, 16%);
 
-- White (text): hsl(0, 0%, 100%)
-- Grayish blue (footer text): hsl(240, 2%, 79%)
-- Very dark grayish blue (body copy): hsl(207, 13%, 34%)
-- Very dark black blue (footer background): hsl(240, 10%, 16%)
+  /* ### Gradient */
 
-/* ### Gradient */
+  /* Background gradient - Intro/CTA mobile nav: */
 
-/* Background gradient - Intro/CTA mobile nav: */
+  --Very-light-red: hsl(13, 100%, 72%);
+  --Light-red: hsl(353, 100%, 62%);
 
---Very-light-red: hsl(13, 100%, 72%)
---Light-red: hsl(353, 100%, 62%)
+  /* Background gradient - body: */
 
-/* Background gradient - body: */
-
---Very-dark-gray-blue: hsl(237, 17%, 21%)
-- Very-dark-desaturated-blue: hsl(237, 23%, 32%)
-
+  --Very-dark-gray-blue: hsl(237, 17%, 21%);
+  --Very-dark-desaturated-blue: hsl(237, 23%, 32%);
 }
 
 body {
@@ -64,15 +62,12 @@ nav ul li a {
 }
 
 nav ul li a.logo {
-  
 }
 
 nav ul li a.left {
-
 }
 
 nav ul li a.register {
-
 }
 
 main {
