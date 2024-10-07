@@ -238,3 +238,28 @@ section.intro p {
   width: 75%;
   line-height: 25px;
 }
+
+/* ================ intro body ================ */
+
+.intro.sec-body {
+  background: url(assets/images/illustration-laptop-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: -300px;
+}
+
+.sec-body {
+  display: flex;
+  width: 100%;
+}
+
+.sec-body .body-left {
+  width: 50%;
+}
+
+.sec-body .body-right {
+  width: 50%;
+  padding-top: 50px;
+}
+.sec-body .body-right p{
+  width: 90%;
+}
