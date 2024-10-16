@@ -250,7 +250,7 @@ section.intro {
   background-position: 800px;
 }
 
-section.intro h2:nth-child(1) {
+section.intro h2.title-intro {
   text-align: center;
   font-size: 40px;
   padding: 50px 0;
@@ -335,15 +335,19 @@ section.intro p {
 .sec-body {
   display: flex;
   width: 100%;
+  align-items: center;
 }
 
 .sec-body .body-left {
   width: 50%;
 }
 
+
 .sec-body .body-right {
   width: 50%;
-  padding-top: 50px;
+  display: flex;
+  flex-direction: column;  
+
 }
 .sec-body .body-right p {
   width: 90%;
@@ -398,4 +402,5 @@ footer ul li a:hover {
 /* ================== Resp =================== */
 
 @media screen and (max-width: 375px) {
+  
 }
